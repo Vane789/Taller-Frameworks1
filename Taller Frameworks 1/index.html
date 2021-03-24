@@ -1,0 +1,22 @@
+ <!--Anlly Vanessa Cardona-->
+ <!DOCTYPE html>
+  <html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="styles/estilo.css"/> 
+	<title>Punto1</title>
+	</head>
+	  <body>
+	   <div><h1>Operaciones</h1></div>
+	   <form action="../../form-result.php" method="post" target="_blank" onsubmit="return validar()" >
+	  <div class="cajas"> <br><input type="number"  id="numero" placeholder="Digite el primer numero" onsu><br>
+	   <br><input type="number"  id="numero2" placeholder="Digite el segundo numero"><br></div>
+	   <div class="botones"><br><input type="button" id="boton" value="Sumar" onclick="validar();Sumar()" >
+	   <input type="button" id="boton" value="Restar" onclick="validar();Restar()">
+	   <input type="button" id="boton" value="Multiplicar" onclick="validar();Multiplicar()">
+	   <input type="button" id="boton" value="Dividir" onclick="validar();Dividir()">
+	   <input type="button" id="boton" value="Potencia" onclick="validar();Potencia()"> </div>
+	   <p id="Solucion"></p>
+	  </form>
+	   </body>
+	    <script src="scripts/funciones.js"></script>
+  </html>
